@@ -1,22 +1,22 @@
 --Day 1 SQL Practice-May 25
 --Topics: SELECT,FROM,ORDER BY,LIMIT
 
---Show all columns from Fuits Store table
-SELECT * FROM Fuits Store;
+--Show all columns from Fruits Store table
+SELECT * FROM Fruits Store;
 
 --shows only specific columns
-SELECT FirstName, LastName, Country FROM Fuits Store;
+SELECT FirstName, LastName, Country FROM Fruits Store;
 
 --Filter by country
 SELECT FirstName, LastName, Country
-FROM Fuits Store
+FROM Fruits Store
 WHERE country = 'USA'
 
 --Sort results
 SELECT FirstName, LastName, Country
-FROM Fuits Store
+FROM Fruits Store
 WHERE country = 'USA'
 ORDER BY LastName;
 
 --shows only 5 rows
-SELECT * FROM Fuits Store LIMIT 5;
+SELECT * FROM Fruits Store LIMIT 5;
